@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import "package:flutter/material.dart";
 import "../data/dummy_data.dart";
 
@@ -8,7 +10,8 @@ class MealDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final String? mealId = ModalRoute.of(context)?.settings.arguments.toString();
+    final String? mealId =
+        ModalRoute?.of(context)?.settings.arguments.toString();
     // print(mealId);\
     final selectedMeal = dummyMeals.firstWhere(
       (meal) {

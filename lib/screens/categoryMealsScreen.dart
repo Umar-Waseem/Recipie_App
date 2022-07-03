@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import "package:flutter/material.dart";
 import 'package:meals_application/mealItem.dart';
 import '../data/dummy_data.dart';
