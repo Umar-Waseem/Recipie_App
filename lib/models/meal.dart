@@ -11,7 +11,7 @@ enum Affordability {
 }
 
 class Meal {
-  final String id;
+  final String? id;
   final List<String>
       categories; // the diferent categories to which the meal belongs
   final String title;
